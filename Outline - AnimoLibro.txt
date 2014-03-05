@@ -1,0 +1,6 @@
+AnimoLibro
+Sell books fast
+-fill in a form, and you're done
+Find books fast
+-search by title, ISBN, category, subject, author
+-user ratings

@@ -1,0 +1,41 @@
+strengths as a Lasallian student/leader/developer/engineer/researcher. 
+
+TO DO: 
+-responsive navbar
+-navbar/section icons
+-find images (1800 x 1125)
+
+Andrew Laron (homepage); icon: sigil/signature/monogram
+
+About Me; icon: user
+-personal background
+background: history book
+-languages
+background: world map/globe
+-programming languages
+background: computer lab
+-interests
+background: forest trail
+
+
+Education; icon: mortarboard hat
+-High school
+background: SSHS campus
+-College
+background: DLSU campus
+
+Co-curriculars; icon: chain link or handshake
+-GameLab
+background: pic of GameLab?
+
+Seminars attended; icon: blackboard
+backgrounds: various lecture rooms
+-seminar 1
+-seminar 2
+-seminar 3
+
+-(contests)
+
+Research; icon: beaker
+-tweet mining
+background: heatmap
