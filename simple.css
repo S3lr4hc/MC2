@@ -6,7 +6,7 @@ body{
 }
 
 .section, .slide{
-	background-image: url(images/notebook.png);
+	background-image: url(images/paper.png);
 	background-size: tile;
  }
 .wrap{
