@@ -1,10 +1,12 @@
 body{
 		font-family:'Oswald',calibri, arial;
 		font-size:1.2em;
+		text-shadow: 1px 1px #ccc;
 		/*color:white;*/
 }
 
-.slide{
+.section, .slide{
+	background-image: url(images/notebook.png);
 	background-size: tile;
  }
 .wrap{
@@ -27,7 +29,7 @@ h3{
 }
 #menu li{
 	display:inline-block;
-	padding: 20px;
+	padding: 5px 20px;
 	color: #ccc;
 }
 #menu li.active{
@@ -37,9 +39,11 @@ a{
 	color:black;
 	text-decoration:none;
 }
+.inline-link{
+	color: green;
+}
 ul li{
 	display:inline-block;
-	padding: 20px;
 }
 #menu{
 	/*background-color:#aaaaaa;*/
@@ -47,7 +51,7 @@ ul li{
 	top:0;
 	left:0;
 	height: 10%;
-	background: #fff;
+	/*background: #fff;*/
 	z-index: 9999;
 	width: 100%;
 	padding: 0;

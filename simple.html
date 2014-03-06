@@ -24,14 +24,22 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			var pepe = $.fn.fullpage({
-				slidesColor: ['green', 'white', 'white'],
+				slidesColor: ['white', 'white', 'white','white','white'],
 				anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage'],
 				menu: '#menu',
-				loopTop: true,
-				loopBottom: true
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['Home', 'About', 'Buy Books', 'Sell Books', 'Check It Out'],
+				slidesNavigation: true	,
+				autoscrolling: false
 			});
-			
+			$('.section').each(function() {
+
+            $(this).find('.controlArrow').hide();
+    
 		});
+		});
+		
 	</script>
 
 </head>
@@ -39,25 +47,27 @@
 
 <ul id="menu">
 	<li data-menuanchor="firstPage"><a href="#firstPage"><h3>AnimoLibro</h3></a></li>
-	<li data-menuanchor="secondPage"><a href="#secondPage"><img src="icons/book.png"></img>About AnimoLibro</a></li>
-	<li data-menuanchor="3rdPage"><a href="#3rdPage"><img src="icons/buy.png"></img>Buy Books</a></li>
-	<li data-menuanchor="4thPage"><a href="#4thPage"><img src="icons/sell.png"></img>Sell Books</a></li>
-	<li data-menuanchor="5thPage"><a href="#5thPage"></a></li>
+	<li data-menuanchor="secondPage"><a href="#secondPage">About AnimoLibro</a></li>
+	<li data-menuanchor="3rdPage"><a href="#3rdPage">Buy Books</a></li>
+	<li data-menuanchor="4thPage"><a href="#4thPage">Sell Books</a></li>
+	<li data-menuanchor="5thPage"><a href="#5thPage">Check It Out</a></li>
 </ul>
 
 <div class="section active" id="section0"><h1>Animo&#9734Libro</h1></div>
 <div class="section" id="section1">
-    <div class="slide slide0"><h1>About AnimoLibro</h1><img src="icons/front.png"></img><h2>a platform for De La Salle University students where you can...</h2></div> <!--personal background-->
+    <h2>About AnimoLibro</h2><img src="icons/front.png"></img><p>A platform for De La Salle University students.<br>Buy and sell used textbooks.</p>
 </div>
 <div class="section" id="section2">
-	<div class="slide"><h1>Buy Books</h1><img src="icons/buypage.png"></img><h2>You don't have to wait in lines!!!</h2></div>
+	<div class="slide"><h2>Find Books</h2><img src="images/buy.png"></img><p>Search for books you need using whatever keywords you like.</p></div>
+	<div class="slide"><h2>Customer's Choice</h2><img src="images/booksellers.png"></img><p>Know who's selling the book you need.<br> So you know just what your options are.</p></div>
 </div>
 
 <div class="section" id="section3">
-	<div class="slide"><h1>Sell Books</h1><img src="icons/sellpage.png"></img><h2>Just a registration away...</h2></div>
+	<div class="slide"><h2>Sell Books</h2><img src="icons/sellpage.png"></img><p>Put your old books up for sale with a guaranteed market.</p></div>
+	<div class="slide"><h2>Track Your Ads</h2><img src="images/userprofile.png"></img><p>See if anyone wants to buy your book at a glance.</p></div>
 </div>
 <div class="section" id="section4">
-	<div class="slide"><h1>Check It Out!</h1><a href = "http://localhost/animolibro/portal.html"><img src="icons/Wormhole.gif"></img></a><h3>Andrew Laron</h3><h3>Ronald Lim</h3><h3>Charles Malcaba</h3>
+<h1>Check It Out!</h1><h3> Click <a class="inline-link" href = "http://localhost/animolibro/portal.html">here</a> to try AnimoLibro for yourself.<!--img src="icons/Wormhole.gif"></img--></h3><!--h3>Andrew Laron</h3><h3>Ronald Lim</h3><h3>Charles Malcaba</h3-->
 </div>
 </body>
 </html>
