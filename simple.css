@@ -48,6 +48,9 @@ a:hover{
 .inline-link:hover{
 	color: #00aa00;
 }
+.controlArrow{
+	visibility:hidden;
+}
 ul li{
 	display:inline-block;
 }
