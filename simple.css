@@ -71,6 +71,10 @@ ul li{
 	margin:0;
 }
 
+.fullPage-tooltip {
+		color:black;
+}
+
 /*#slide1-1{
 	background-image: url(images/books.jpg);
 
