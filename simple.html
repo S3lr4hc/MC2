@@ -24,12 +24,12 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			var pepe = $.fn.fullpage({
-				slidesColor: ['white', 'white', 'white','white','white'],
-				anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage'],
+				slidesColor: ['white', 'white', 'white','white'],
+				anchors: ['firstPage', '3rdPage', '4thPage', '5thPage'],
 				menu: '#menu',
 				navigation: true,
 				navigationPosition: 'right',
-				navigationTooltips: ['Home', 'About', 'Buy Books', 'Sell Books', 'Check It Out'],
+				navigationTooltips: [ 'About', 'Buy Books', 'Sell Books', 'Check It Out'],
 				slidesNavigation: true	,
 				scrollingSpeed: 300
 			});
@@ -43,16 +43,16 @@
 
 <ul id="menu">
 	<li data-menuanchor="firstPage"><a href="#firstPage"><h3>Animo&#9734Libro</h3></a></li>
-	<li data-menuanchor="secondPage"><a href="#secondPage">About AnimoLibro</a></li>
+	<!-- data-menuanchor="secondPage"><a href="#secondPage">About AnimoLibro</a></li-->
 	<li data-menuanchor="3rdPage"><a href="#3rdPage">Buy Books</a></li>
 	<li data-menuanchor="4thPage"><a href="#4thPage">Sell Books</a></li>
 	<li data-menuanchor="5thPage"><a href="#5thPage">Check It Out</a></li>
 </ul>
 
-<div class="section active" id="section0"><h1>Animo&#9734Libro</h1></div>
-<div class="section" id="section1">
-    <h2>About AnimoLibro</h2><img src="icons/front.png"></img><p>A platform for De La Salle University students.<br>Buy and sell used textbooks.</p>
-</div>
+<div class="section active" id="section0"><h2>Animo&#9734Libro</h2><img src="icons/front.png"></img><p>A platform for De La Salle University students.<br>Buy and sell used textbooks.</p></div>
+<!--div class="section" id="section1">
+    <h2>About AnimoLibro</h2>
+</div-->
 <div class="section" id="section2">
 	<div class="slide"><h2>Find Books</h2><img src="images/buy.png"></img><p>Search for books you need using whatever keywords you like.</p></div>
 	<div class="slide"><h2>Customer's Choice</h2><img src="images/booksellers.png"></img><p>Know who's selling the book you need.<!--br> So you know just what your options are.<--></p></div>
@@ -63,7 +63,7 @@
 	<div class="slide"><h2>Track Your Ads</h2><img src="images/userprofile.png"></img><p>See if anyone wants to buy your books at a glance.</p></div>
 </div>
 <div class="section" id="section4">
-<h1>Check It Out!</h1><h3> <a class="inline-link" href = "http://localhost/animolibro/portal.html">Try AnimoLibro for yourself.</a> <!--img src="icons/Wormhole.gif"></img--></h3><!--h3>Andrew Laron</h3><h3>Ronald Lim</h3><h3>Charles Malcaba</h3-->
+<h1>Check It Out!</h1><h3> <a class="inline-link" href = "http://localhost/animolibro/portal.php">Try AnimoLibro for yourself.</a> <!--img src="icons/Wormhole.gif"></img--></h3><!--h3>Andrew Laron</h3><h3>Ronald Lim</h3><h3>Charles Malcaba</h3-->
 </div>
 </body>
 </html>
