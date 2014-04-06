@@ -54,7 +54,29 @@ a:hover{
 	color: #00aa00;
 }
 .controlArrow{
-	/*visibility:hidden;*/
+	/*border-width:20px;*/
+
+	
+
+}
+.controlArrow.prev{
+width:103px;
+	height:94px;
+	border-width: 0;
+	left:50px;
+	background-image:url('images/arrow-prev.png');
+	border-color: transparent transparent transparent transparent;
+	
+}
+.controlArrow.next{
+width:103px;
+	height:94px;
+	right:50px;
+	border-width: 0;
+	background-image:url('images/arrow-next.png');
+	border-color: transparent transparent transparent transparent;
+	
+
 }
 ul li{
 	display:inline-block;
