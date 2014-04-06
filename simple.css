@@ -48,6 +48,7 @@ a:hover{
 }
 .inline-link{
 	color: green;
+	text-decoration:underline;
 }
 .inline-link:hover{
 	color: #00aa00;
